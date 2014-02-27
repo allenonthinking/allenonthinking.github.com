@@ -19,7 +19,7 @@ jQuery(document).ready(function(){
 
 	jQuery("#search-form").submit(function(){
 		var query = document.getElementById("google-search").value;
-		window.open("http://google.com/search?q=" + query+ "%20site:" + "http://blog.javachen.com");
+		window.open("http://google.com/search?q=" + query+ "%20site:" + "http://allenonthinking.github.com");
 	});
 });
 
