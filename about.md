@@ -12,7 +12,7 @@ comment: true
 
 # 联系我
 
-- Email：allen.liu@embracesource.com
+- Email：allen.liu[@]embracesource.com
 - Weibo: <a href='http://weibo.com/1219101280'>@Allen-Thinking</a>
 
 # 关于版权
