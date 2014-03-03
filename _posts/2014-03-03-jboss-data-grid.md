@@ -110,7 +110,7 @@ Red Hat JBoss Data Grid Cache架构图描绘了各个要素及其相互作用。
  - Cache Manager(缓存管理器)控制Cache实例的生命周期，并在需要时可以存储和检索。
  - Cache是用于存储键值检索的主要成分。
 
-**Library 和Remote Client-Server Mode架构
+**Library 和Remote Client-Server Mode架构**
 
  - Library Mode下，应用程序(用户代码)可以与Cache和Cache Manager组件直接交互。在这种情况下，应用程序驻留在同一Java虚拟机(JVM)可以直接调用Cache和Cache Manager的Java API的方法。
  - 在Remote Client-Server Mode下，应用程序不直接与Cache和Cache Manager进行交互。此外，应用程序通常在不同的JVM中，不同的物理主机上，并不需要一个Java应用程序。在这种情况下，应用程序使用缓存客户端与远程服务器JDG在使用支持的协议，如Memcached的，Hot Rod，或REST的一个网络通信。
