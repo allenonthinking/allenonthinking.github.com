@@ -80,11 +80,14 @@ JBoss Data Grid支持流行的Memcached协议，客户端支持多种流行的�
 Red Hat JBoss Data Grid是在Infinispan的基础上构建的Data Grid软件的开源社区版本。Infinispan的使用代码，设计和想法基于JBoss Cache。并在高压力下经过测试。
 
 下表列出的JBoss Data Grid和Infinispan的版本之间的相关性。
-`JBoss Data Grid Product	Infinispan Version`
-`JBoss Data Grid 6.0.0	 	Infinispan 5.1.5`
-`JBoss Data Grid 6.0.1	 	Infinispan 5.1.7`
-`JBoss Data Grid 6.1.0	 	Infinispan 5.2.4`
-`JBoss Data Grid 6.2.0	 	Infinispan 6.0.1`
+
+```
+JBoss Data Grid Product		Infinispan Version
+JBoss Data Grid 6.0.0	 	Infinispan 5.1.5
+JBoss Data Grid 6.0.1	 	Infinispan 5.1.7
+JBoss Data Grid 6.1.0	 	Infinispan 5.2.4
+JBoss Data Grid 6.2.0	 	Infinispan 6.0.1
+```
 
 ## 1.6 Red Hat JBoss Data Grid Cache架构
 
