@@ -57,3 +57,14 @@ vim /etc/sysconfig/network-scripts/ifcfg-eth0
 start_udev
 ```
 
+- ssh登录免除安全验证
+
+```
+vim /etc/ssh/sshd_config
+修改
+GSSAPIAuthentication no
+GSSAPICleanupCredentials no
+重启ssh服务
+/etc/init.d/sshd restart
+```
+
