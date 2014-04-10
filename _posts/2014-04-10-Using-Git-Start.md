@@ -226,5 +226,7 @@ git push -f  tmp master:master
 
 下载远程版本库切换到 tmp下
 git fetch tmp
-git checkout -b tmp/master
+git branch tmp tmp/master
+
+Branch tmp set up to track remote branch master from tmp by rebasing.
 ```
