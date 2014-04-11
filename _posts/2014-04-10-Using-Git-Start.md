@@ -66,6 +66,9 @@ git tag 1.0 test1.0
 
 查看标签 
 git tag
+
+推送tag到远程仓库
+git push --tags
 ```
 
 ## git rebase
@@ -226,7 +229,10 @@ git push -f  tmp master:master
 
 下载远程版本库切换到 tmp下
 git fetch tmp
-git branch tmp tmp/master
-
+git branch tmp tmp/master 
 Branch tmp set up to track remote branch master from tmp by rebasing.
+
+push tmp 到tmp下master分支下
+git push tmp tmp：master 
+
 ```
