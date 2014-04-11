@@ -41,6 +41,15 @@ git commit -m "add index.html"
 
 git commit -a 提交全部修改过的文件
 
+撤销本地某次提交后全部提交(未提交到远程服务器) 
+git reset --hard <commit_id>
+
+删除远程已提交的commit  
+git revert <commit_id>
+在push最新代码到远程服务器
+git push origin master 
+
+
 查看提交日志
 git log  参数 -3  近3次修改
 
