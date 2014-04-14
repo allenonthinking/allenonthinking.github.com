@@ -245,3 +245,19 @@ push tmp 到tmp下master分支下
 git push tmp tmp：master 
 
 ```
+
+# 5 patch合并
+
+## 重新排序提交
+
+```
+使用编辑器排序近期3个提交
+git rebase -i HEAD~3
+```
+
+## 将多个提交合并成一个提交
+
+```
+git rebase -i <commit_id>
+使用编辑器 pick 修改为 squash
+```
