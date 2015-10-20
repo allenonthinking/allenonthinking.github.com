@@ -2,45 +2,40 @@
     "avatar": "http://tp2.sinaimg.cn/2558456121/180/5694710128/1",
     "background_image": "/resume/data/yosemite-3.jpg",
     "basicinfo": {
-        "name": "周晶（jockchou）",
+        "name": "刘阳（allenliu）",
 		"age": 27,
         "description": "能力越大，责任越大",
-        "school": "湖南文理学院",
-        "profession": "网络工程",
+        "school": "辽宁工业大学",
+        "profession": "计算机科学与技术",
         "sex": "男",
         "education" : "本科",
         "workage": "2011年毕业",
-        "phone": "18680372992",
-        "email": "164068300@qq.com"
+        "phone": "18500238554",
+        "email": "417325330@qq.com"
     },
     "social":[
         {
             "type": "github",
-            "link": "https://github.com/jockchou",
+            "link": "https://github.com/allenonthinking",
             "icon": ""
         },
         {
             "type": "weibo",
-            "link": "http://weibo.com/jockchou",
-            "icon": ""
-        },
-        {
-            "type": "twitter",
-            "link": "https://twitter.com/jockchou",
+            "link": "http://weibo.com/1219101280",
             "icon": ""
         },
         {
             "type": "home",
-            "link": "http://jockchou.com",
+            "link": "http://www.allenjava.com",
             "icon": ""
         }
     ],
     "Awards": [
         {
-            "name": "工作岗位：Linux服务器，数据库，WEB开发相关工作"
+            "name": "工作岗位：Java开发相关工作"
         },
         {
-            "name": "期望薪资：25K/Month"
+            "name": "期望薪资：20K/Month"
         }
     ],
     "socialExperiences": [
@@ -72,31 +67,31 @@
     ],
     "InternExperiences": [
         {
-            "name": "【深圳市暖柚科技有限公司】",
-            "name_link": "http://www.impingo.me/homepage/index.html",
-            "title": "Linux服务器工程师",
+            "name": "【拉手】",
+            "name_link": "",
+            "title": "Java 开发",
             "icon": "",
-            "description": "负责《叽叽》、《随遇》两款社交App的服务器技术架构和研发工作",
-            "time": "2014.05 - 至今",
-            "location": "广东 深圳"
+            "description": "电商网站",
+            "time": "2015.12 - 至今",
+            "location": "北京"
         },
         {
             "name": "【深圳市迅雷网络技术有限公司】",
             "name_link": "",
-            "title": "WEB前端工程师，PHP开发工程师",
+            "title": "Java Web开发工程师",
             "icon": "",
-            "description": "迅雷方舟项目的前端开发，迅雷手机助手，迅雷TV项目的PHP开发",
-            "time": "2012.02 - 2014.05",
-            "location": "广东 深圳"
+            "description": "",
+            "time": "2013.03 - 2015.11",
+            "location": "北京"
         },
 		{
-            "name": "【深圳泡椒思志信息技术有限公司】",
+            "name": "【东软】",
             "name_link": "",
             "title": "Java Web开发工程师",
             "icon": "",
-            "description": "负责泡椒网，泡椒旗下相关移动，PC产品的服务器端开发和WEB前端开发",
-            "time": "2011.02 - 2012.02",
-            "location": "广东 深圳"
+            "description": "负责PC产品的服务器端开发和WEB前端开发",
+            "time": "2011.09 - 2012.12",
+            "location": "辽宁 沈阳"
         }
     ],
     "ProjectExperience": [
