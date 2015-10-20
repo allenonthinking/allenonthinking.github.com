@@ -1,11 +1,12 @@
 serve/
 server/
 _site/*
+.settings
 _theme_packages/*
 
 Thumbs.db
 .DS_Store
-
+.project
 !.gitkeep
 
 .rbenv-version
