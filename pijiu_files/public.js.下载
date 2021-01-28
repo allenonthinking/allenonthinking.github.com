@@ -1,0 +1,24 @@
+/*产业联盟通栏js*/
+ $(function(){
+      function isHide(obj){
+        $(obj).each(function(){
+          var ad_con=$.trim($(this).html());
+          var ad_con_in=$.trim($(this).children().first().html());
+          if(  ad_con == "" || ad_con_in == "" ){
+            $(this).parent().hide();
+          }else{
+            $(this).parent().show();
+          }
+        });
+      }
+      isHide(".t1127-ind-full-adcolumn1-con");
+  });
+
+/*分类js*/
+ $(function(){
+		$('.t2033-nav-category-category .t2033-nav-category-category-con').find('.t2033-prolist-allsort').show();
+		$('.t2033-nav-category-category .t2033-nav-category-category-con').unbind('mouseenter mouseleave');
+		
+
+
+	})
